@@ -83,8 +83,9 @@ header nav {
 }
 
 header nav a {
-    
-    color: grey;
+    /* display: inline-block; */
+    /* line-height: 1em; */
+    color: black;
     text-decoration: none;
     position: relative;
     right: 30px ;
