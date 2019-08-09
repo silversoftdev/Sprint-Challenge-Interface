@@ -71,10 +71,49 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    margin: 0 auto; 
+    font-size: 14px;
+    border: 10px solid  rgba(255, 192, 203, 0);
+}
+
+header nav a {
+    
+    color: grey;
+    text-decoration: none;
+    position: relative;
+    right: 30px ;
+    top: 14px;
+}
+
+.jumbo-img {
+    padding: 5px;
+    border: 10px solid rgba(255, 192, 203, 0);
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+}
+
+.lambda-logo {
+    display: flex;
+    
+    /* align-items: left; */
+    justify-content: baseline;
+    text-align: left;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    position: relative;
+    left: 25px;
+    /* margin-left: 2px; */
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -86,6 +125,8 @@ p {
 }
 
 .middle-content {
+    position: relative;
+    left: 25px;;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -104,18 +145,59 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    position: relative;
+    left: 25px;
 }
 
 .bottom-content .text-container {
@@ -129,6 +211,8 @@ p {
 footer {
     width: 100%;
     background: black;
+    position: relative;
+    left: 25px;
 }
 
 footer nav {
@@ -144,3 +228,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
