@@ -149,10 +149,14 @@ header nav a {
 .strategy, .how-we-work, .places-we-work, .collaboration{
     display: flex;
     flex-direction: row;
+    justify-content:left;
     flex-wrap: wrap;
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 10px;  
+    position: relative;
+    left: 25px;
+    top: 10px;
 }
 
 .middle-content {
@@ -247,6 +251,21 @@ header nav a {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+button {
+    width: 130px;
+    height: 40px;
+    border-radius: 11%;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  
+  }
 
 footer {
     width: 100%;
