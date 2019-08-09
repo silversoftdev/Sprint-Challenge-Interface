@@ -146,7 +146,24 @@ header nav a {
     padding-bottom: 20px;  
 
 }
-.strategy, .how-we-work, .places-we-work, .collaboration{
+.strategy {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    flex-wrap: wrap;
+    width: 48%;
+    padding: 0 1%;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    padding-right: 20px; 
+    border-bottom: 1px dashed black;
+    /* padding-left: 20px; */
+    position: relative;
+    left: 25px;
+    top: -1px;
+}
+
+.how-we-work {
     display: flex;
     flex-direction: row;
     justify-content:left;
@@ -156,14 +173,49 @@ header nav a {
     /* padding-top: 10px; */
     padding-bottom: 10px; 
     padding-right: 20px; 
-    padding-left: 20px;
+    /* padding-left: 20px; */
+    border-bottom: 1px dashed black;
+    position: relative;
+    left: 48px;
+    top: 7px;
+}
+
+.places-we-work {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    flex-wrap: wrap;
+    width: 48%;
+    padding: 0 1%;
+    padding-top: 64px;
+    padding-bottom: 10px; 
+    padding-right: 20px; 
+    border-bottom: 1px dashed black;
+    /* padding-left: 20px; */
     position: relative;
     left: 25px;
     top: 10px;
 }
 
+.collaboration {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    flex-wrap: wrap;
+    width: 48%;
+    padding: 0 1%;
+    padding-top: 64px;
+    padding-bottom: 10px; 
+    padding-right: 20px; 
+    /* padding-left: 20px; */
+    border-bottom: 1px dashed black;
+    position: relative;
+    left: 48px;
+    top: 10px;
+}
+
 div.strategy h1, div.how-we-work h1, div.places-we-work h1, div.collaboration h1 {
-    color: blueviolet;
+    /* color: blueviolet; */
     padding-top: 10px;
 }
 
@@ -249,7 +301,8 @@ div.strategy h1, div.how-we-work h1, div.places-we-work h1, div.collaboration h1
     margin: 0 2% 20px;
     /* justify-content: space-around; */
     position: relative;
-    left: 25px;
+    padding-top: 50px;
+    left: 29px;
 }
 
 .bottom-content .text-container {
@@ -269,7 +322,7 @@ button {
     font-size: 16px;
     font-weight: bold;
     margin-top: 20px ;
-    padding: 10px;
+    padding: 10px;:
     background-color: white;
     color: black;
     cursor: pointer;
@@ -282,6 +335,9 @@ footer {
     background: black;
     position: relative;
     left: 25px;
+}
+.footer-about {
+    padding-top: 20px;
 }
 
 footer nav {
