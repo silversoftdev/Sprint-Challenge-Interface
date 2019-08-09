@@ -337,7 +337,8 @@ footer {
     left: 25px;
 }
 .footer-about {
-    padding-top: 20px;
+    /* padding-top: 40px; */
+    margin-bottom: -20px;
 }
 
 footer nav {
