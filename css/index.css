@@ -71,11 +71,63 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    margin: 0 auto; 
+    font-size: 14px;
+    border: 10px solid  rgba(255, 192, 203, 0);
+}
+
+header nav a {
+    /* display: inline-block; */
+    /* line-height: 1em; */
+    color: black;
+    text-decoration: none;
+    position: relative;
+    right: 30px ;
+    top: 14px;
+}
+
+.jumbo-img {
+    padding: 5px;
+    border: 10px solid rgba(255, 192, 203, 0);
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+}
+
+.lambda-logo {
+    display: flex;
+    
+    /* align-items: left; */
+    justify-content: baseline;
+    text-align: left;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    position: relative;
+    left: 25px;
+    /* margin-left: 2px; */
     margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-top {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    position: relative;
+    left: 45px;
+    /* margin-left: 2px; */
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -85,7 +137,91 @@ p {
     padding-bottom: 20px;  
 }
 
+.about-main-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+
+}
+.strategy {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    flex-wrap: wrap;
+    width: 48%;
+    padding: 0 1%;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    padding-right: 20px; 
+    border-bottom: 1px dashed black;
+    /* padding-left: 20px; */
+    position: relative;
+    left: 25px;
+    top: -1px;
+}
+
+.how-we-work {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    flex-wrap: wrap;
+    width: 48%;
+    padding: 0 1%;
+    /* padding-top: 10px; */
+    padding-bottom: 10px; 
+    padding-right: 20px; 
+    /* padding-left: 20px; */
+    border-bottom: 1px dashed black;
+    position: relative;
+    left: 48px;
+    top: 7px;
+}
+
+.places-we-work {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    flex-wrap: wrap;
+    width: 48%;
+    padding: 0 1%;
+    padding-top: 64px;
+    padding-bottom: 10px; 
+    padding-right: 20px; 
+    border-bottom: 1px dashed black;
+    /* padding-left: 20px; */
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+
+.collaboration {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    flex-wrap: wrap;
+    width: 48%;
+    padding: 0 1%;
+    padding-top: 64px;
+    padding-bottom: 10px; 
+    padding-right: 20px; 
+    /* padding-left: 20px; */
+    border-bottom: 1px dashed black;
+    position: relative;
+    left: 48px;
+    top: 10px;
+}
+
+div.strategy h1, div.how-we-work h1, div.places-we-work h1, div.collaboration h1 {
+    /* color: blueviolet; */
+    padding-top: 10px;
+}
+
 .middle-content {
+    position: relative;
+    left: 25px;;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -104,18 +240,69 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    position: relative;
+    left: 25px;
+}
+
+.about-bottom {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2% 20px;
+    /* justify-content: space-around; */
+    position: relative;
+    padding-top: 50px;
+    left: 29px;
 }
 
 .bottom-content .text-container {
@@ -126,9 +313,32 @@ p {
     padding-right: 0;
 }
 
+button {
+    width: 130px;
+    height: 40px;
+    border-radius: 11%;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px ;
+    padding: 10px;:
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  
+  }
+
 footer {
     width: 100%;
     background: black;
+    position: relative;
+    left: 25px;
+}
+.footer-about {
+    /* padding-top: 40px; */
+    margin-bottom: -20px;
 }
 
 footer nav {
@@ -144,3 +354,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
